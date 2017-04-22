@@ -12,3 +12,4 @@ Below are some of the key concepts of the simulation's algorithm:
 * **Result Buses:** unlike the original Tomasulo algorithm, which contains a single *Common Data Bus (CDB)*, there can be multiple result buses to update the state of the pipeline.
 * **Reservation Station Scheduling:** units of scheduling managing an instruction fired to a *Function Unit*
 * **Specialized Function Units:** specialized hardware units specific to different types of instructions
+* **Gselect Branch Prediction:** a global branch prediction scheme that keeps a pattern history table and concatenates the global branch history
